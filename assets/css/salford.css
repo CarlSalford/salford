@@ -1,0 +1,170 @@
+/* Insert CSS Below */
+@font-face {
+    font-family: "ReplicaPro";
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Regular.eot");
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Regular.eot") format("embedded-opentype"), url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Regular.ttf") format("truetype"),
+        url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ReplicaPro-Light";
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Light.eot");
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Light.eot") format("embedded-opentype"), url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Light.ttf") format("truetype"),
+        url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Light.woff") format("woff");
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ReplicaPro-Italic";
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Italic.eot");
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Italic.eot") format("embedded-opentype"), url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Italic.ttf") format("truetype"),
+        url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Italic.woff") format("woff");
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "ReplicaPro-Bold";
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Bold.eot");
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Bold.eot") format("embedded-opentype"), url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Bold.ttf") format("truetype"),
+        url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ReplicaPro-Heavy";
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Heavy.eot");
+    src: url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Heavy.eot") format("embedded-opentype"), url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Heavy.ttf") format("truetype"),
+        url("https://www.salford.ac.uk/themes/custom/uos/fonts/ReplicaPro-Heavy.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+:root {
+    --uos-salford-red: #d20a11;
+    --uos-worker-bee-yellow: #f6c900;
+    --uos-unstoppable-navy: #00313d;
+    --uos-irwell-blue: #6fb6ba;
+    --uos-peel-park-green: #b1d9c3;
+    --uos-crescent-coral: #eb5e54;
+    --uos-humphey-booth-grey: #c6c7c4;
+    --uos-black: #000;
+    --uos-white: #fff;
+    --uos-gray: #6c757d;
+    --uos-gray-dark: #343a40;
+    --uos-gray-100: #f8f9fa;
+    --uos-gray-200: #eaeff5;
+    --uos-gray-300: #dee2e6;
+    --uos-gray-400: #ced4da;
+    --uos-gray-500: #c6c7c4;
+    --uos-gray-600: #6c757d;
+    --uos-gray-700: #495057;
+    --uos-gray-800: #343a40;
+    --uos-gray-900: #0a1f29;
+}
+
+body {
+    font-family: "ReplicaPro-Light", sans-serif;
+    margin-top: unset;
+}
+
+a,
+#toc a,
+aside a {
+    color: var(--uos-salford-red);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "ReplicaPro-Heavy", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#content aside h3 {
+    color: var(--uos-black);
+    text-decoration: none;
+}
+
+p {
+    font-family: "ReplicaPro-Light", sans-serif;
+    font-size: 1.125rem;
+}
+
+.title-bar,
+header .toggle a {
+    color: var(--uos-black);
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: var(--uos-salford-red) transparent transparent;
+}
+
+header .toggle a:hover {
+    color: var(--uos-salford-red);
+}
+
+.button {
+    background-color: var(--uos-salford-red);
+}
+
+button.menu-icon,
+button.menu-icon:hover {
+    background: unset;
+}
+
+.menu-icon:after {
+    background: var(--uos-black);
+    box-shadow: 0 7px 0 var(--uos-black), 0 14px 0 var(--uos-black);
+}
+
+.menu-icon:hover::after {
+    background: var(--uos-salford-red);
+    box-shadow: 0 7px 0 var(--uos-salford-red), 0 14px 0 var(--uos-salford-red);
+}
+
+header #main-menu li a,
+footer p, footer pre, footer li, footer ul li a {
+    font-size: 1.125rem;
+}
+
+.dark-primary-bg,
+.summary .top {
+    background: var(--uos-unstoppable-navy);
+}
+
+.summary .bottom, .summary h5 {
+    background: var(--uos-worker-bee-yellow);
+    color: var(--uos-black);
+}
+
+footer svg, footer img {
+    max-height: 80px;
+}
+
+footer .logo-wrapper {
+    height: 120px;
+}
