@@ -160,11 +160,3 @@ footer p, footer pre, footer li, footer ul li a {
     background: var(--uos-worker-bee-yellow);
     color: var(--uos-black);
 }
-
-footer svg, footer img {
-    max-height: 80px;
-}
-
-footer .logo-wrapper {
-    height: 120px;
-}

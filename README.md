@@ -1,6 +1,10 @@
 # Salford Theme
 
-A custom theme for Janeway based on the University of Salford's branding and design guidelines.
+A custom theme for Janeway based on the University of Salford's branding and design guidelines. This is a subtheme of https://github.com/openlibhums/janeway/tree/master/src/themes/OLH.
+
+Rename the theme folder to 'salford'. This theme is to be used on https://openjournals.salford.ac.uk/.
+
+For more information on Janeway see https://janeway.readthedocs.io/en/v1.7.2/dev/configuration.html#django-settings
 
 ## Features
 
@@ -159,4 +163,3 @@ The local `.gitignore` file in this directory ignores:
 - Environment files
 
 This ensures that only the source files are tracked while build artifacts and temporary files are excluded.
-
