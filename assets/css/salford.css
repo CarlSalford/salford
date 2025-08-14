@@ -160,3 +160,15 @@ footer p, footer pre, footer li, footer ul li a {
     background: var(--uos-worker-bee-yellow);
     color: var(--uos-black);
 }
+
+.main-footer .logo-wrapper {
+    min-height: 12rem;
+    align-content: center;
+}
+footer svg, footer img {
+    max-height: 4rem;
+    max-width: 9rem;
+}
+.bg-salford-red {
+    background: var(--uos-salford-red);
+}
