@@ -5,7 +5,6 @@
 {% load i18n %}
 {% load roles %}
 {% load hooks %}
-{% load next_url %}
 
 <!doctype html>
 <html class="no-js{% if request.resolver_match %} page-{{ request.resolver_match.url_name }}{% if request.resolver_match.namespace %} page-{{ request.resolver_match.namespace }}-{{ request.resolver_match.url_name }}{% endif %}{% endif %}" lang="en">
